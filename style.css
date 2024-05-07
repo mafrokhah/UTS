@@ -1,0 +1,143 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #f1e215;
+    color: #181717;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+}
+
+/* Navigation */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Section */
+section {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Profile UKM */
+.ukm-profile {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.ukm-profile img {
+    max-width: 90%;
+    height: auto;
+}
+
+/* Gallery */
+.gallery {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.gallery-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Form */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-container form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-container label,
+.form-container input,
+.form-container select,
+.form-container button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-container button {
+    background-color: #4CAF50;
+    color: #0F0E04;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+.form-container button.cancel {
+    background-color: #ff0000;
+    float: right;
+}
+
+.form-container button.cancel:hover {
+    background-color: #d60000;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
